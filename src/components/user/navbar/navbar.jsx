@@ -354,11 +354,11 @@ const ProfessionalNavbar = () => {
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
           <div 
-            className="fixed inset-0 bg-black bg-opacity-50" 
+            className="fixed inset-0 bg-red-700 bg-opacity-50" 
             onClick={toggleMenu}
           />
           <div 
-            className="fixed inset-y-0 left-0 max-w-xs w-full bg-white 
+            className="fixed inset-y-0 left-0 max-w-xs w-full bg-red-700 
             shadow-xl z-50 overflow-y-auto transform transition-transform"
           >
             {/* Mobile Menu Content */}
